@@ -2,7 +2,7 @@
   "name": "cv-incubator",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://annabogdanovich4.github.io/CV-INCUBATOR/",
+  "homepage": "https://annabogdanovich4.github.io/cv-for-job/",
   "dependencies": {
     "@formspree/react": "^2.4.1",
     "@testing-library/jest-dom": "^5.14.1",

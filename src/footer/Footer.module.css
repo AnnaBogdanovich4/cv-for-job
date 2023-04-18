@@ -1,5 +1,5 @@
 .footer {
-    background-color: rgba(34, 5, 238, 0.56);
+    /*background-color: rgba(34, 5, 238, 0.56);*/
 }
 
 .container {
@@ -9,7 +9,7 @@
 
 h2 {
     margin: 5px;
-    background-color: rgba(223, 223, 225, 0.99);
+    /*background-color: rgba(223, 223, 225, 0.99);*/
 }
 
 .footerIcons {
@@ -18,11 +18,11 @@ h2 {
     max-width: 100%;
     align-items: center;
     justify-content: space-around;
-    border: 1px solid;
+    /*border: 1px solid;*/
 }
 
 .footerIcons a {
-    border: 1px solid greenyellow;
+    /*border: 1px solid greenyellow;*/
     width: 32px;
     height: 32px;
     background-size: cover;

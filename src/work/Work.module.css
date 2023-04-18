@@ -1,5 +1,5 @@
 .work{
-    background-color: whitesmoke;
+    /*background-color: whitesmoke;*/
     border: 1px solid;
     padding: 0 10px;
     margin: 5px;
@@ -10,5 +10,5 @@
 }
 .date{
     padding: 5px 0;
-    color: darkred;
+    /*color: darkred;*/
 }

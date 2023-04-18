@@ -27,7 +27,7 @@ export const MyProjects = () => {
                                       'I use TypeScript,Hooks,Redux and.\n' +
                                  'javaScript functions such as map(), filter() method and spread array.' +
                                  'I create style with Material UI.'}
-                             href={'#'}
+                             href={'https://annabogdanovich4.github.io/TODOLIST/'}
                              url={`${background2}`}
                     />
                     <Project title={"Photographer's portfolio"}
@@ -37,20 +37,20 @@ export const MyProjects = () => {
                              href={'https://annabogdanovich4.github.io/Portfolio/'}
                              url={`${background3}`}
                     />
-                    <Project title={'Shelter'}
-                             description={'Website for an animal shelter. I made adaptive cross-browser layout based from Figma. I used CSS-animations, BEM, SVG in layout.\n' +
-                                 'I used flex and grid in creating the layout. \n' +
-                                 'The site has a google map, a pop-up window, a slider, a feedback form.'}
-                             href={'#'}
-                             url={`${background4}`}
-                    />
-                    <Project title={"Book's shop"}
-                             description={'Website for bookshop. I made adaptive cross-browser layout based from Figma. I used CSS-animations, BEM, SVG in layout.\n' +
-                                 'I used flex and grid in creating the layout. \n' +
-                                 'The site has a feedback form and its validation, a pop-up window and a slider.'}
-                             href={'#'}
-                             url={`${background5}`}
-                    />
+                    {/*<Project title={'Shelter'}*/}
+                    {/*         description={'Website for an animal shelter. I made adaptive cross-browser layout based from Figma. I used CSS-animations, BEM, SVG in layout.\n' +*/}
+                    {/*             'I used flex and grid in creating the layout. \n' +*/}
+                    {/*             'The site has a google map, a pop-up window, a slider, a feedback form.'}*/}
+                    {/*         href={'#'}*/}
+                    {/*         url={`${background4}`}*/}
+                    {/*/>*/}
+                    {/*<Project title={"Book's shop"}*/}
+                    {/*         description={'Website for bookshop. I made adaptive cross-browser layout based from Figma. I used CSS-animations, BEM, SVG in layout.\n' +*/}
+                    {/*             'I used flex and grid in creating the layout. \n' +*/}
+                    {/*             'The site has a feedback form and its validation, a pop-up window and a slider.'}*/}
+                    {/*         href={'#'}*/}
+                    {/*         url={`${background5}`}*/}
+                    {/*/>*/}
                 </div>
             </div>
         </div>
