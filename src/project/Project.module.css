@@ -1,0 +1,36 @@
+.project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 1px solid greenyellow;
+    padding: 10px;
+    width: 250px;
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+.img {
+    width: 250px;
+    min-width: 100%;
+    min-height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /*This need, when we use background-image*/
+    /*background-image: url(url);*/
+    /*background-size: cover;*/
+    /*background-position: center;*/
+}
+
+.linkProject {
+    width: 60%;
+    height: 50px;
+    background-color: rgba(159, 252, 73, 0.85);
+    text-align: center;
+    padding: 10px;
+    text-decoration-line: none;
+    color: #565353;
+    border-radius: 10px;
+}

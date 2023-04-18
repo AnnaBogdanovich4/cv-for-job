@@ -1,0 +1,26 @@
+.main {
+    background-color: gainsboro;
+    min-height: 100vh;
+}
+
+.img {
+    width: 350px;
+    height: 550px;
+    background-image: url("./../assets/img/mainPhoto.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.myName {
+    display: flex;
+    flex-direction: column;;
+    width: 350px;
+    background-color: #bcf6d2;;
+    text-align: center;
+}
+
+.myName h2, h3, h4 {
+    color: indigo;
+    font-family: 'Sunday', serif;
+}
+

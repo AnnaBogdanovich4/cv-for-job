@@ -1,0 +1,50 @@
+.footer {
+    background-color: rgba(34, 5, 238, 0.56);
+}
+
+.container {
+    min-height: 25vh;
+    flex-direction: column;
+}
+
+h2 {
+    margin: 5px;
+    background-color: rgba(223, 223, 225, 0.99);
+}
+
+.footerIcons {
+    display: flex;
+    width: 350px;
+    max-width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid;
+}
+
+.footerIcons a {
+    border: 1px solid greenyellow;
+    width: 32px;
+    height: 32px;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+}
+
+.phone{
+    background-image: url("../assets/svg/icon_mobile_phone.svg");
+}
+.email{
+    background-image: url("./../assets/svg/icon_e-mail.svg")
+}
+.telegram{
+    background-image: url("./../assets/svg/icon_telegram.svg")
+}
+.linkedin{
+    background-image: url("./../assets/svg/icon_linkedin.svg")
+}
+.gitHub{
+    background-image: url("./../assets/svg/icon_git.svg")
+}
+.portfolio{
+    background-image: url("./../assets/svg/icon_portfolio.svg")
+}

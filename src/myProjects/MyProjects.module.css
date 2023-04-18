@@ -1,0 +1,17 @@
+.myProjects {
+    background-color: floralwhite;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+}
+
+h3 {
+    color: #932d2d;
+    font-family: 'Sunday',serif;
+}
+
+

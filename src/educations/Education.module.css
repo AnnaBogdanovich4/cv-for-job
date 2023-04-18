@@ -1,0 +1,19 @@
+.education {
+    background-color: whitesmoke;
+    border: 1px solid;
+    padding: 10px;
+    margin: 5px;
+}
+
+.place{
+    font-family: serif;
+    font-weight: bold;
+}
+
+.date {
+    padding: 5px 0;
+    color: darkred;
+}
+h5{
+    letter-spacing: 0.1rem
+}

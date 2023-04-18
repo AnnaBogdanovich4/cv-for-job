@@ -1,0 +1,32 @@
+.myExperienceAndEducation {
+    background-color: #98b1c2;
+}
+
+.educationExperience,
+.workExperience{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    border: 1px solid;
+}
+
+.educations,.works {
+    display: flex;
+    flex-direction: column;
+}
+
+.myExperienceAndEducation h3 {
+    color: #686b0a;
+    text-align: center;
+}
+
+.place {
+    font-style: italic;
+    }
+.date{
+    padding: 5px 0px;
+    color: darkred;
+}
+.container {
+    align-items: start;
+}

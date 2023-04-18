@@ -1,0 +1,69 @@
+.app {
+    font-family: 'Bebas Neue',serif;
+    font-size: var(--font-user);
+}
+
+h3 {
+    color: var(--accent-color);
+    font-family: 'Sunday',serif;
+    font-size: 2rem;
+}
+
+h5 {
+    font-family: 'Sunday',serif;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+@font-face {
+    font-family: 'Bebas Neue';
+    src: local('Bebas Neue'), url(assets/fonts/BebasNeueRegular.woff2) format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sunday';
+    src: local('Sunday'), url(assets/fonts/Sunday-Regular.woff2) format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+:root {
+    --accent-color: #BDAE82;
+    --light-color: #FFFFFF;
+    --black-color: #000000;
+    /*--font-user: 20px;  */
+    --font-user: 1.5em;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+.active {
+    background-color: var(--accent-color);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+button {
+    width: 60%;
+    height: 50px;
+    background-color: rgba(159, 252, 73, 0.85);
+    text-align: center;
+    color: #565353;
+    border-radius: 10px;
+    margin: 25px 0;
+}

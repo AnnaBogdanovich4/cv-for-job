@@ -1,0 +1,56 @@
+.footer {
+    background-color: #eeadd0;
+}
+
+.container {
+    flex-direction: column;
+    min-height: 70vh;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #a5e3e5;
+}
+
+input,
+textarea {
+    height: 50px;
+    width: 450px;
+    border: 2px palegoldenrod solid;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    padding: 25px 15px;
+    -webkit-text-fill-color: palegoldenrod;
+    transition: background-color 0s ease-in-out 9000s;
+    line-height: 40px;
+    margin: 10px 0;
+}
+
+@media (max-width: 520px) {
+    input,
+    textarea {
+        width: 280px;
+    }
+}
+
+input::placeholder {
+    color: palegoldenrod;
+    padding: 13px 5px 5px 8px;
+}
+
+textarea {
+    height: 100px;
+    resize: none;
+    padding: 0 15px;
+}
+.message{
+    color: #230b3a;
+    margin: 0 auto;
+    text-align: center;
+    padding: 5px;
+    /*border: 1px solid black;*/
+    width: 320px;
+    background: #a5e3e5;
+}

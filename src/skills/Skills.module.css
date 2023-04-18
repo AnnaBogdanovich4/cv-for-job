@@ -1,0 +1,20 @@
+.skills {
+    background-color: rgba(145, 238, 145, 0.62);
+    width: 100%;
+}
+
+.skillsContainer {
+    background-color: #fddc98;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.container {
+    flex-direction: column;
+}
+
+.skills h3 {
+    color: #9d0f5c;
+}

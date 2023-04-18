@@ -1,0 +1,14 @@
+.work{
+    background-color: whitesmoke;
+    border: 1px solid;
+    padding: 0 10px;
+    margin: 5px;
+}
+.place {
+    font-family: serif;
+    font-weight: bold;
+}
+.date{
+    padding: 5px 0;
+    color: darkred;
+}

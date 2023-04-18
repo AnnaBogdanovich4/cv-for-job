@@ -1,0 +1,18 @@
+.nav {
+    margin-left: auto;
+    border: 1px solid;
+    max-width: 100%;
+}
+
+.ul {
+    display: flex;
+    list-style: none;
+    min-width: 350px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 0 10px;
+}
+
+.ul a {
+    padding: 5px;
+}
