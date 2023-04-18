@@ -1,5 +1,5 @@
 .education {
-    background-color: whitesmoke;
+    /*background-color: whitesmoke;*/
     border: 1px solid;
     padding: 10px;
     margin: 5px;
@@ -12,7 +12,7 @@
 
 .date {
     padding: 5px 0;
-    color: darkred;
+    /*color: darkred;*/
 }
 h5{
     letter-spacing: 0.1rem

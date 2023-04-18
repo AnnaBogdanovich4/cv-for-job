@@ -1,5 +1,5 @@
 .aboutMe {
-    background-color: blanchedalmond;
+    /*background-color: blanchedalmond;*/
     min-height: 80vh;
 }
 
@@ -8,13 +8,14 @@
     flex-direction: column;
     align-items: center;
     max-width: 100%;
-    background-color: rgba(147, 138, 138, 0.67);
+    /*background-color: rgba(147, 138, 138, 0.67);*/
 }
 
 .img {
     width: 350px;
     max-width: 100%;
-    height: 450px;
+    height: 590px;
+    /*margin-top: 20px;*/
     background-image: url("./../assets/img/avatarka2.jpg");
     background-size: cover;
     background-position: center;
@@ -30,7 +31,7 @@
     list-style: none;
     flex-wrap: wrap;
     padding: 0 10px;
-    background-color: #c584c5;
+    /*background-color: #c584c5; */
 }
 
 .icon {
@@ -62,7 +63,7 @@
     background-image: url("./../assets/svg/icon_portfolio.svg")
 }
 .context {
-    background-color: rgba(232, 219, 219, 0.67);
+    /*background-color: rgba(232, 219, 219, 0.67);*/
     padding: 0 10px;
     max-width: 700px;
 }
@@ -71,7 +72,7 @@
     align-items: start;
 }
 .myDescription{
-    border: 1px solid;
+    /*border: 1px solid;*/
     max-width: 700px;
 }
 
@@ -82,9 +83,11 @@ span {
 .download {
     width: 40%;
     height: 50px;
-    background-color: rgba(159, 252, 73, 0.85);
+    /*background-color: rgba(159, 252, 73, 0.85);*/
+    background-color: var(--accent-color);
     text-align: center;
-    color: #565353;
+    color: #1a1919;
+    /*color: #565353;*/
     border-radius: 10px;
     margin: 25px 0;
     text-decoration-line: none;

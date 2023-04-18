@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    border: 1px solid greenyellow;
+    /*border: 1px solid greenyellow;*/
     padding: 10px;
     width: 250px;
     max-width: 100%;
@@ -27,10 +27,10 @@
 .linkProject {
     width: 60%;
     height: 50px;
-    background-color: rgba(159, 252, 73, 0.85);
+    background-color: var(--accent-color);
     text-align: center;
+    color: #1a1919;
     padding: 10px;
     text-decoration-line: none;
-    color: #565353;
     border-radius: 10px;
 }
